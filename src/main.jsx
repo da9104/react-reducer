@@ -15,13 +15,13 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {index: true, path: '/', element: <App />},
-      
+
     ]
   },
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-       <RouterProvider router={router} />
+       <RouterProvider router={router} basename={process.env.PUBLIC_URL} />
   </StrictMode>,
 )
