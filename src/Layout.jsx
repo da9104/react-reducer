@@ -10,8 +10,8 @@ function Layout() {
           <ul style={{ display: 'flex', flexDirection: 'row', gap: '30px'}}>
             <li><a href="/">Home</a></li>
             <li><Link to="/react-reducer/example">Example</Link></li>
-            <li><Link to="/react-reducer/example">More challenging example</Link></li>
-            <li><a href="/">Redux-Redux Toolkits</a></li>
+            <li><Link to="/">More challenging example</Link></li>
+            <li><Link to="/react-reducer/redux">Redux</Link></li>
           </ul>
         </nav>
       </header>

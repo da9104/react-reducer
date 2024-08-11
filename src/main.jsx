@@ -9,6 +9,7 @@ import Layout from './Layout';
 import NotFound from './NotFound'
 import ErrorPage from './ErrorPage';
 import ReducerExample from './ReducerExample'
+import ReduxExample from './ReduxExample'
 import './index.css'
 
 const router = createBrowserRouter([
@@ -18,7 +19,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {index: true, element: <App />},
-      {path: 'example', element: <ReducerExample />}
+      {path: 'example', element: <ReducerExample />},
+      {path: 'redux', element: <ReduxExample />},
     ]
   },
   { path: "*", element: <NotFound /> },
