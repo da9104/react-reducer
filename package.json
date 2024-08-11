@@ -1,8 +1,8 @@
 {
   "name": "reducer-start",
+  "homepage": "https://da9104.github.io/react-reducer",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://da9104.github.io/react-reducer",
   "type": "module",
   "scripts": {
     "dev": "vite",

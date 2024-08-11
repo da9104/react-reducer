@@ -1,6 +1,5 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
-import App from './App'
+import { Outlet, Link } from 'react-router-dom';
 
 function Layout() {
   return (
@@ -10,7 +9,8 @@ function Layout() {
         <nav >
           <ul style={{ display: 'flex', flexDirection: 'row', gap: '30px'}}>
             <li><a href="/">Home</a></li>
-            <li><a href="/">Example</a></li>
+            <li><Link to="/react-reducer/example">Example</Link></li>
+            <li><Link to="/react-reducer/example">More challenging example</Link></li>
             <li><a href="/">Redux-Redux Toolkits</a></li>
           </ul>
         </nav>

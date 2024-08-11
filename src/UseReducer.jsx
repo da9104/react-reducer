@@ -13,7 +13,7 @@ export function reducer(oldState, action) {
   }
 }
 
-function App() {
+function UseReducer() {
   const [count, dispatch] = useReducer(reducer, 0)
 
   function down() {
@@ -79,4 +79,4 @@ function App() {
   )
 }
 
-export default App
+export default UseReducer

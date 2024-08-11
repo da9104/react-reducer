@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { nord } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
-function App() {
+function UseState() {
   const [count, setCount] = useState(0)
 
   function down() {
@@ -26,11 +26,11 @@ function App() {
       <input type='button' value='0' onClick={reset} />
       <input placeholder={count}  />
 
-      <SyntaxHighlighter language='javascript' style={nord}>
+ <SyntaxHighlighter language='javascript' style={nord}>
        {
         `
  import { useState } from 'react'
- 
+
  function App() {
   const [count, setCount] = useState(0)
 
@@ -63,4 +63,4 @@ function App() {
   )
 }
 
-export default App
+export default UseState
